@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+
+<body>
+    <h1>Prueba de funcionamiento</h1>
+    <div id="output"></div>
+    <script>
+        const data = [
+            { name: "Enrique", gifts: ["Libro Harry Potter"] },
+            { name: "Natalia", gifts: ["Mat de yoga", "Sorpresa"] }
+        ];
+
+        document.getElementById('output').innerHTML =
+            '<p>Datos cargados: ' + data.length + ' personas</p>' +
+            '<ul>' + data.map(p => '<li>' + p.name + ': ' + p.gifts.join(', ') + '</li>').join('') + '</ul>';
+    </script>
+</body>
+
+</html>

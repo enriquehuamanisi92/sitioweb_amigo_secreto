@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Lista de regalos para el intercambio de Amigo Secreto - Monto aproximado S/ 50.00">
+    <title>🎁 Amigo Secreto - Posibles Regalos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Snowflakes -->
+    <div id="snowflakes"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <h1>🎄 Amigo Secreto 🎁</h1>
+            <p class="subtitle">Ideas de regalos para nuestro intercambio navideño</p>
+            <div class="budget-info">💰 Monto Aproximado: S/ 50.00</div>
+            <div id="updateIndicator" style="margin-top: 10px; font-size: 0.9rem; opacity: 0.8;">📡 Cargando...</div>
+        </div>
+    </header>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+        <input type="text" id="searchBox" class="search-box" placeholder="🔍 Buscar por nombre..." autocomplete="off">
+    </div>
+
+    <!-- Main Container -->
+    <main class="container">
+        <div id="giftsGrid" class="gifts-grid">
+            <div class="loading">Cargando regalos</div>
+        </div>
+        <div id="noResults" class="no-results" style="display: none;">
+            No se encontraron resultados 😔
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p class="footer-text">¡Felices Fiestas! 🎅</p>
+        <div class="footer-icon">🎄</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

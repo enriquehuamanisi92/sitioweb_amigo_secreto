@@ -1,0 +1,17 @@
+{
+    "name": "amigo-secreto-uch",
+    "version": "1.0.0",
+    "description": "Sitio web de Amigo Secreto con colores UCH",
+    "main": "app.py",
+    "scripts": {
+        "start": "gunicorn app:app"
+    },
+    "keywords": [
+        "amigo-secreto",
+        "uch",
+        "python",
+        "flask"
+    ],
+    "author": "",
+    "license": "MIT"
+}

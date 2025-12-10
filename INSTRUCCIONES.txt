@@ -1,0 +1,72 @@
+═══════════════════════════════════════════════════════════════
+  SITIO WEB DE AMIGO SECRETO - INSTRUCCIONES DE USO
+═══════════════════════════════════════════════════════════════
+
+✅ ARCHIVOS INCLUIDOS:
+   • index.html    - Página principal
+   • styles.css    - Estilos con colores UCH
+   • script.js     - Datos y funcionalidad
+   • test.html     - Archivo de prueba simple
+
+═══════════════════════════════════════════════════════════════
+
+📋 CÓMO USAR EL SITIO:
+
+OPCIÓN 1 - ABRIR DIRECTAMENTE (MÁS FÁCIL):
+   1. Haz doble clic en "index.html"
+   2. Se abrirá en tu navegador predeterminado
+   3. Deberías ver 6 tarjetas con los regalos
+
+OPCIÓN 2 - USAR SERVIDOR LOCAL (SI NO FUNCIONA LA OPCIÓN 1):
+   1. Abre PowerShell o CMD en esta carpeta
+   2. Ejecuta: python -m http.server 8000
+   3. Abre tu navegador en: http://localhost:8000
+
+═══════════════════════════════════════════════════════════════
+
+🔍 SOLUCIÓN DE PROBLEMAS:
+
+SI VES UNA PÁGINA EN BLANCO:
+   • Presiona F12 para abrir la consola del navegador
+   • Ve a la pestaña "Console"
+   • Busca mensajes de error en rojo
+   • Asegúrate de que los 3 archivos estén en la misma carpeta
+
+SI DICE "CARGANDO REGALOS" Y NO CAMBIA:
+   • Presiona F5 para recargar la página
+   • Verifica que script.js esté en la misma carpeta
+   • Prueba abriendo test.html para verificar que JavaScript funciona
+
+SI LOS COLORES NO SE VEN:
+   • Verifica que styles.css esté en la misma carpeta
+   • Presiona Ctrl + F5 para recargar sin caché
+
+═══════════════════════════════════════════════════════════════
+
+🎨 CARACTERÍSTICAS:
+
+✓ Colores institucionales UCH (azul Biscay y Sapphire)
+✓ 6 personas con sus sugerencias de regalos
+✓ Búsqueda en tiempo real por nombre
+✓ Enlaces clickeables a productos
+✓ Diseño responsive (funciona en móvil)
+✓ Animaciones de copos de nieve
+✓ Efectos hover en las tarjetas
+
+═══════════════════════════════════════════════════════════════
+
+👥 PERSONAS INCLUIDAS:
+
+1. Enrique Huamani Uriarte
+2. Natalia Indira Vargas Cuentas
+3. Sebastian Ramos Cosi
+4. Ana Huamani Huaracca
+5. Zulema Leiva Bazán
+6. Meyluz Paico
+
+═══════════════════════════════════════════════════════════════
+
+💡 NOTA: Los datos están embebidos directamente en script.js,
+   por lo que NO necesitas conexión a internet para que funcione.
+
+═══════════════════════════════════════════════════════════════
