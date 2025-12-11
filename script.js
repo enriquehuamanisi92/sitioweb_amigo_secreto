@@ -77,16 +77,12 @@ function extractLink(text) {
     return { text: text, link: null };
 }
 
-function getInitials(name) {
-    const words = name.split(' ');
-    if (words.length >= 2) {
-        return (words[0][0] + words[words.length - 1][0]).toUpperCase();
-    }
-    return name.substring(0, 2).toUpperCase();
-}
-
 function createGiftCard(person, index) {
-    const initials = getInitials(person.name);
+    // Array de iconos navideños festivos
+    const festiveIcons = ['🎄', '🎁', '⛄', '🎅', '⭐', '🔔', '🎀', '❄️', '🌟', '🦌'];
+    // Seleccionar un icono consistente para cada persona basado en su nombre
+    const iconIndex = person.name.length % festiveIcons.length;
+    const festiveIcon = festiveIcons[iconIndex];
 
     let giftsHTML = '';
     person.gifts.forEach(gift => {
@@ -104,7 +100,7 @@ function createGiftCard(person, index) {
     return `
         <div class="gift-card" style="animation-delay: ${index * 0.05}s">
             <div class="card-header">
-                <div class="avatar">${initials}</div>
+                <div class="avatar">${festiveIcon}</div>
                 <h2 class="person-name">${person.name}</h2>
             </div>
             <div class="gift-items">
